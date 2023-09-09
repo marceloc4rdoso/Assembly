@@ -29,4 +29,4 @@ _start:
     ; destino , origem EAX =1
     mov eax, 0x1 ; Informa o SO que está terminando o programa
     mov ebx, 0x0 ; Informa o SO que o valor de retorno é 0
-    int 0x80
+    int 0x80; Executa
